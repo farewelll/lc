@@ -1,3 +1,34 @@
+日期：2019.5.20 - 2019.6.11
+
+每日提交 pull requests 的截止时间（以 5 月 20 号为例）：推荐时间是 5 月 20 号晚上 12 点之前，最后截止时间是 5 月 21 号凌晨 2 点之前，以 GitHub 上显示的时间戳为准，超过最后截止时间视为未能按时完成提交，出现一次即挑战失败，扣除押金，移出 GitHub organization 和微信群。
+
+使用方法：
+
+1、将 `https://github.com/cracklc/lc` fork 到自己账户下
+
+2、以 `inengch` 为例：
+```bash
+# 将 fork 后的仓库 clone 到本地
+git clone https://github.com/inengch/lc
+
+# 切换到目录
+cd lc
+
+# 复制模版文件夹 username 为自己的用户名文件夹，比如这里用户名是 inengch
+cp -R username inengch
+
+# 切换到自己的用户名文件夹
+cd inengch
+
+# 切换到当天的文件夹，这里以第 1 天为例
+cd 01
+
+# 将相应的文件修改为你所使用的语言的对应的扩展名，比如我使用 C++
+mv permutations permutations.cc
+
+# 将相应的在 lintcode 上提交通过的代码复制粘贴到对应的文件中，然后提交到自己的 GitHub 仓库，当天要求完成的 6 道题全都提交完成后发起 pull requests
+```
+
 Day 1
 
 [Permutations](https://www.lintcode.com/problem/permutations/description)
